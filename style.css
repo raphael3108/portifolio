@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    background-color: lightslategray;
+    padding: 30px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+main{
+    background-color: burlywood;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: lightslategray;
+    width: 30%;
+    border-radius: 10px;
+}
+footer{
+    background-color: lightslategray;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}

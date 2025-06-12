@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contador de Cliques</title>
+</head>
+<body>
+    <div id="mostraHTML"><p>Números de cliques: 0</p></div>
+    <button onclick="contador()">Clique aqui</button>
+    <button onclick="zerar()">Zerar</button>
+
+    <script>
+        let cliques = 0;
+        let mostraHTML = document.getElementById("mostraHTML");
+
+        function contador() {
+            cliques += 1;
+            mostraHTML.innerHTML = `<p>Números de cliques: ${cliques}</p>`;
+            console.log(cliques);
+        }
+
+        function zerar() {
+            cliques = 0;
+            mostraHTML.innerHTML = `<p>Números de cliques: ${cliques}</p>`;
+            console.log(cliques);
+        }
+    </script>
+</body>
+</html>
